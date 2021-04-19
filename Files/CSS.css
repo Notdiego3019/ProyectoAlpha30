@@ -1,13 +1,17 @@
 html {
-    background-color: black;
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 2;
+    border-radius: 20px;
     padding: 0;
     overflow: hidden;
-    background-color: #111;
+    background-color: #012;
+    font-size: 14px;
+    text-align: center;
   }
   
   li {
@@ -24,7 +28,8 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #222;
+    background-color: #123;
+    border-radius: 20px;
   }
   
 
@@ -33,6 +38,12 @@ h1,h2,h3,h4,h5 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-button {
+input {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+  background-color: #012;
+  border-color: #123;
+  text-align: center;
+  color: white;
+  font-size: 14px;
 }

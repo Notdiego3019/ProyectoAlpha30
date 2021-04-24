@@ -36,7 +36,11 @@ ul {
 
 h1,h2,h3,h4,h5,h6,title,button {
     color: darkgrey;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.online_3d_viewer{
+  width: 50%;
+  height: 50%;
 }
 
 input {

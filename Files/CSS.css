@@ -2,6 +2,7 @@ html {
   background-color: rgb(0, 0, 0);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 20px;
+  color: grey;
 }
 
 ul {
@@ -59,6 +60,9 @@ h1,h2,h3,h4,h5,h6,title,button {
 .online_3d_viewer{
   width: 50%;
   height: 50%;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
 }
 
 input {
@@ -69,4 +73,8 @@ input {
   text-align: center;
   color: white;
   font-size: 14px;
+}
+
+label {
+  object-position: 100px;
 }

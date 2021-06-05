@@ -2,7 +2,6 @@ html {
   background-color: rgb(0, 0, 0);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 20px;
-  color: grey;
 }
 
 ul {
@@ -35,34 +34,19 @@ ul {
   }
   
 
-h1,h2,h3,h4,h5,h6,title,button {
-    color: darkgrey;
+h1,h2,h3,h5,h6,title,button {
+    color: rgb(145, 145, 145);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Portrait */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) 
-  and (orientation: portrait) {
-
-}
-
-/* Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) 
-  and (orientation: landscape) {
-
-}
-
-.online_3d_viewer{
-  width: 50%;
-  height: 50%;
-  background-color: black;
-  border-radius: 20px;
+h4 {
+  font-family: Verdana, Tahoma, Geneva, sans-serif;
   color: white;
+  border: 2px solid #012;
+  border-radius: 20px;
+  text-align: justify;
+  background-color: #123;
+  margin-left: 5px;
 }
 
 input {
@@ -73,4 +57,81 @@ input {
   text-align: center;
   color: white;
   font-size: 14px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 2px;
+}
+
+div {
+  background-color: black;
+}
+
+.btn-group button {
+  background-color: #012; /* Green background */
+  border: 1px #123; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  border-radius: 20px;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #123;
+}
+
+.btn-group button:selection {
+  border-color: white;
+  user-select: auto;
+}
+
+.tds-option_group {
+  border: 5px;
+  border-color: white;
+  border-radius: 20px;
+  color: white;
+  align-items: center;
+  vertical-align: 100px;
+  float: left;
+  margin: 20px;
+}
+
+.tds-option_group1 {
+  border: 5px;
+  border-color: white;
+  border-radius: 20px;
+  color: white;
+  align-items: center;
+  vertical-align: 100px;
 }

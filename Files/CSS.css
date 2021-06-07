@@ -44,7 +44,7 @@ h4 {
   color: white;
   border: 2px solid #012;
   border-radius: 20px;
-  text-align: justify;
+  text-align: center;
   background-color: #123;
   margin-left: 5px;
 }
@@ -82,7 +82,7 @@ input {
 }
 
 div {
-  background-color: black;
+  margin: 5px;
 }
 
 .btn-group button {
@@ -134,4 +134,8 @@ div {
   color: white;
   align-items: center;
   vertical-align: 100px;
+}
+div2 {
+  margin: 5px;
+  text-shadow: #555;
 }

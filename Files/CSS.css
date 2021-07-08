@@ -34,19 +34,9 @@ ul {
   }
   
 
-h1,h2,h3,h5,h6,title,button {
+h1,h2,h3,h4,h5,h6,title,button,label {
     color: rgb(145, 145, 145);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h4 {
-  font-family: Verdana, Tahoma, Geneva, sans-serif;
-  color: white;
-  border: 2px solid #012;
-  border-radius: 20px;
-  text-align: center;
-  background-color: #123;
-  margin-left: 5px;
 }
 
 input {
@@ -86,6 +76,16 @@ div {
 }
 
 .btn-group button {
+  background-color: #012; /* Green background */
+  border: 1px #123; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  border-radius: 20px;
+}
+
+button {
   background-color: #012; /* Green background */
   border: 1px #123; /* Green border */
   color: white; /* White text */

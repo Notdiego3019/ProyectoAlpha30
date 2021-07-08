@@ -10,9 +10,51 @@
         <title>
             Cajero
         </title>
-    <head>
-        <h1>
-            Esta parte del sitio web todavía está bajo construcción.
-        </h1>
-    </head>
+        <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta
+              name="viewport"
+              content="width=device-width,
+                       initial-scale=1.0"/>
+            <link rel="stylesheet" href="style.css" 
+                  class="css" />
+          </head>
+          <body>
+              <div class="card-details">
+                <p>Paque con tarjeta de credito o debito</p>
+          
+                <div class="card-number">
+                  <label> Numero de tarjeta </label>
+                  <input
+                    type="text"
+                    class="card-number-field"
+                    placeholder="###-###-###"/>
+                </div>
+                <br />
+                <div class="date-number">
+                  <label> Fecha de vencimiento </label>
+                  <input type="text" class="date-number-field" 
+                         placeholder="DD-MM-YY" />
+                </div>
+          
+                <div class="cvv-number">
+                  <label> Numero CVV </label>
+                  <input type="text" class="cvv-number-field" 
+                         placeholder="xxx" />
+                </div>
+                <div class="nameholder-number">
+                  <label> Nombre </label>
+                  <input
+                    type="text"
+                    class="card-name-field"
+                    placeholder="Enter your Name"/>
+                </div>
+                <!-- if you are on Window : --> 
+                <button onclick="window.location.href='Thx.html'">
+                  Pagar
+                </button>
+              </div>
+            </div>
+          </body>
 </html>

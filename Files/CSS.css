@@ -76,22 +76,22 @@ div {
 }
 
 .btn-group button {
-  background-color: #012; /* Green background */
-  border: 1px #123; /* Green border */
-  color: white; /* White text */
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-  float: left; /* Float the buttons side by side */
+  background-color: #012;
+  border: 1px #123; 
+  color: white; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  float: left; 
   border-radius: 20px;
 }
 
 button {
-  background-color: #012; /* Green background */
-  border: 1px #123; /* Green border */
-  color: white; /* White text */
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-  float: left; /* Float the buttons side by side */
+  background-color: #012; 
+  border: 1px #123; 
+  color: white; 
+  padding: 10px 24px;
+  cursor: pointer; 
+  float: left; 
   border-radius: 20px;
 }
 

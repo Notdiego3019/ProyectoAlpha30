@@ -1,6 +1,4 @@
 # ProjectoAlpha30
 
-Proyecto final de la materia "Programacion de la calidad".
-Favor de ignorar a menos que sea mi maestro o compañero.
-
-Atencion: Para poder utilir bien el Code se nececita como obligacion un server propio.
+Proyecto final de la materia "Programación de la calidad". Favor de ignorar al menos que sea mi maestro o compañero.
+Atención: Para poder utilizar bien el Code se necesita como obligación un server propio.

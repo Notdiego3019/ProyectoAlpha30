@@ -78,7 +78,7 @@ div {
 .btn-group button {
   background-color: darkgray;
   border: 1px #123; 
-  color: rgb(90, 90, 90); 
+  color: rgba(33, 101, 156, 0.548); 
   padding: 10px 24px; 
   cursor: pointer; 
   float: left; 
@@ -88,7 +88,7 @@ div {
 button {
   background-color: darkgray; 
   border: 1px #123; 
-  color: rgb(90, 90, 90); 
+  color: rgba(33, 101, 156, 0.548); 
   padding: 10px 24px;
   cursor: pointer; 
   float: left; 
@@ -108,7 +108,7 @@ button {
 
 /* Add a background color on hover */
 .btn-group button:hover {
-  background-color: #123;
+  background-color: rgb(33, 101, 156,);
 }
 
 .btn-group button:selection {
@@ -120,7 +120,7 @@ button {
   border: 5px;
   border-color: #012;
   border-radius: 20px;
-  color: rgb(90, 90, 90);
+  color: black;
   align-items: center;
   vertical-align: 100px;
   float: left;
@@ -131,12 +131,12 @@ button {
   border: 5px;
   border-color: #012;
   border-radius: 20px;
-  color: rgb(90, 90, 90);
+  color: black;
   align-items: center;
   vertical-align: 100px;
 }
 
 div2 {
   margin: 20px;
-  text-shadow: #555;
+  text-shadow: black;
 }

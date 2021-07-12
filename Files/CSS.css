@@ -1,13 +1,14 @@
 html {
   background-color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-radius: 20px;
+  border-radius: 25px;
+  text-overflow: clip;
 }
 
 ul {
     list-style-type: none;
     margin: 2;
-    border-radius: 20px;
+    border-radius: 25px;
     padding: 0;
     overflow: hidden;
     background-color: rgba(33, 101, 156, 0.548);
@@ -17,6 +18,8 @@ ul {
   
   li {
     float: left;
+    text-align: center;
+    margin: auto;
   }
   
   li a {
@@ -29,8 +32,9 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #123;
-    border-radius: 20px;
+    background-color:rgba(33, 101, 156, 0.548);
+    border-radius: 25px;
+    color: white;
   }
   
 
@@ -71,6 +75,10 @@ input {
   border-radius: 10px;
 }
 
+::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+}
+
 div {
   margin: 5px;
 }
@@ -82,7 +90,12 @@ div {
   padding: 10px 24px; 
   cursor: pointer; 
   float: left; 
-  border-radius: 20px;
+  border-radius: 25px;
+}
+
+.btn-group button:hover{
+  background-color: rgb(33, 101, 156);
+  color: white;
 }
 
 button {
@@ -92,7 +105,12 @@ button {
   padding: 10px 24px;
   cursor: pointer; 
   float: left; 
-  border-radius: 20px;
+  border-radius: 25px;
+}
+
+button:hover{
+  background-color: rgb(33, 101, 156);
+  color: white;
 }
 
 .btn-group button:not(:last-child) {
@@ -119,7 +137,7 @@ button {
 .tds-option_group {
   border: 5px;
   border-color: #012;
-  border-radius: 20px;
+  border-radius: 25px;
   color: black;
   align-items: center;
   vertical-align: 100px;
@@ -130,7 +148,7 @@ button {
 .tds-option_group1 {
   border: 5px;
   border-color: #012;
-  border-radius: 20px;
+  border-radius: 25px;
   color: black;
   align-items: center;
   vertical-align: 100px;

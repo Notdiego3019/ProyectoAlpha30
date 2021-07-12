@@ -21,38 +21,49 @@
         </script>
     </head>
     <body>
-        <h5>
-            Debido a limites de Pizzerias solamente tenemos este pedazo de pizza. Disfrutelo.
-        </h5>
-        <div>
-            <div class="tds-option_group1">
-                <input name="basic" class="tds-option-input tds--is_visually_hidden" type="radio" ><label class="tds-option-label"><span class="tds-label-title"><span>Basica</span><span class="tds-label-descriptor">&nbsp;$5,50</span></span></label>
-            </div>
-            <div class="tds-option_group1">
-                <input name="basic" class="tds-option-input tds--is_visually_hidden" type="radio" ><label class="tds-option-label"><span class="tds-label-title"><span>Grande</span><span class="tds-label-descriptor">&nbsp;$10</span></span></label>
-            </div>
-        </div>
-        <h4>
-            Extras:
-        </h4>
-        <div>
-            <div class="tds-option_group">
-                <input name="extra" class="tds-option-input tds--is_visually_hidden" type="radio" ><label class="tds-option-label"><span class="tds-label-title"><span>Salami</span><span class="tds-label-descriptor">&nbsp;$5</span></span></label>
-            </div>
-            <div class="tds-option_group">
-                <input name="extra" class="tds-option-input tds--is_visually_hidden" type="radio" ><label class="tds-option-label"><span class="tds-label-title"><span>Queso extra</span><span class="tds-label-descriptor">&nbsp;$2</span></span></label>
-            </div>
-            <div class="tds-option_group">
-                <input name="extra" class="tds-option-input tds--is_visually_hidden" type="radio" ><label class="tds-option-label"><span class="tds-label-title"><span>Sin extra</span></span></label>
-            </div>
-        </div>
-        <div2>
-            <a href="Pago.html" target="_blank"><input type="button" value="Ir a pagar" /></a>
-        </div2>
-        <div class="online_3d_viewer"
-            style="width: 1280px; height: 720px; background-color: rgba(0, 0, 0, 0);"
-            model="3D files/Pizza.gltf, 3D files/Pizza.bin, 3D files\texture_0_6195987693227547908.png, 3D files\texture_1_17319628118832143767.png"
-            camera="3,2,2,2,0,2,0,2,2">
-        </div>
+        <main>
+            <ul id="cards">
+                <li class="card" id="card_1">
+                    <div class="card__content">
+                        <div>
+                            <h2>Configure su pizza</h2>
+                            <h5>
+                                Debido a limites de Pizzerias solamente tenemos este pedazo de pizza. Disfrutelo.
+                            </h5>
+                            <div>
+                                <div class="tds-option_group1">
+                                    <input name="basic" class="tds-option-input tds--is_visually_hidden" type="radio" ><label class="tds-option-label"><span class="tds-label-title"><span>Basica</span><span class="tds-label-descriptor">&nbsp;$5,50</span></span></label>
+                                </div>
+                                <div class="tds-option_group1">
+                                    <input name="basic" class="tds-option-input tds--is_visually_hidden" type="radio" ><label class="tds-option-label"><span class="tds-label-title"><span>Grande</span><span class="tds-label-descriptor">&nbsp;$10</span></span></label>
+                                </div>
+                            </div>
+                            <h4>
+                                Extras:
+                            </h4>
+                            <div>
+                                <div class="tds-option_group">
+                                    <input name="extra" class="tds-option-input tds--is_visually_hidden" type="radio" ><label class="tds-option-label"><span class="tds-label-title"><span>Salami</span><span class="tds-label-descriptor">&nbsp;$5</span></span></label>
+                                </div>
+                                <div class="tds-option_group">
+                                    <input name="extra" class="tds-option-input tds--is_visually_hidden" type="radio" ><label class="tds-option-label"><span class="tds-label-title"><span>Queso extra</span><span class="tds-label-descriptor">&nbsp;$2</span></span></label>
+                                </div>
+                                <div class="tds-option_group">
+                                    <input name="extra" class="tds-option-input tds--is_visually_hidden" type="radio" ><label class="tds-option-label"><span class="tds-label-title"><span>Sin extra</span></span></label>
+                                </div>
+                            </div>
+                            <div2>
+                                <a href="Pago.html" target="_blank"><input type="button" value="Ir a pagar" /></a>
+                            </div2>
+                            <div class="online_3d_viewer"
+                                style="width: 720px; height: 720px; border-radius: 25pt; align-items: baseline; margin: 30px;"
+                                model="3D files/Pizza.gltf, 3D files/Pizza.bin, 3D files\texture_0_6195987693227547908.png, 3D files\texture_1_17319628118832143767.png"
+                                camera="3,2,2,2,0,2,0,2,2">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </main>
     </body>
 </html>

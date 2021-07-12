@@ -3,6 +3,7 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 25px;
   text-overflow: clip;
+  margin: 30px;
 }
 
 ul {
@@ -38,7 +39,7 @@ ul {
   }
   
 
-h1,h2,h3,h4,h5,h6,title,button,label {
+h1,h2,h3,h4,h5,h6,title,button,label,main {
     color:black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -55,7 +56,8 @@ input {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 15px;
+  scroll-behavior: smooth;
 }
 
 /* Track */
@@ -157,4 +159,12 @@ button:hover{
 div2 {
   margin: 20px;
   text-shadow: black;
+}
+
+main {
+  border-radius: 25px;
+}
+
+a {
+  border-color: black;
 }
